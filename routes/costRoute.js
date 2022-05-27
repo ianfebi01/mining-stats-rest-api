@@ -15,4 +15,5 @@ costRouter.get('/:id', getCostById);
 costRouter.post('/', createCost);
 costRouter.patch('/:id', updateCost);
 costRouter.delete('/:id', deleteCost);
+
 export default costRouter;
