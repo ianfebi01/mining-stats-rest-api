@@ -15,6 +15,9 @@ const income = db.define(
     date: {
       type: DataTypes.DATE,
     },
+    email: {
+      type: DataTypes.STRING,
+    },
   },
   { freezeTableName: true }
 );
